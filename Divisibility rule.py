@@ -30,8 +30,11 @@ if divv == 5:
 
 # Divisor (6) It is divisible by 2 and by 3
 if divv == 6:
-    num3 = '1232345'
+    num3 = input('enter your num: ')
     total = 0
     for i in range(len(num3)):
         total += int(num3[i])
     print('True' if total % 3 == 0 and total % 2 == 0 else 'False')
+
+# Divisor (7) it is divisible by 3 and 2 at the same time.
+    
